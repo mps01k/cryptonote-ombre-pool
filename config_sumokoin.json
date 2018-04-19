@@ -1,8 +1,8 @@
 {
-    "coin": "Sumokoin",
-    "symbol": "SUMO",
-    "coinUnits": 1000000000,
-    "coinDifficultyTarget": 240,
+    "coin": "SuperiorCoin",
+    "symbol": "SUP",
+    "coinUnits": 10000000,
+    "coinDifficultyTarget": 120,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Sumoo64zh7dRFyB8dgDWZMLmzKBgGXYWZCG4NBF2VcvzEuiSQpMjyyiYJ1Ra696pZu56PPFQNBDdB1rZjyeX1RVKeWZgHg7pTxj",
+        "poolAddress": "YOUR_WALLET_ADDRESS",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslKey": "key.pem",
@@ -101,13 +101,13 @@
 
     "payments": {
         "enabled": true,
-        "interval": 10800,
+        "interval": 180,
         "maxAddresses": 30,
         "mixin": 12,
-        "transferFee": 10000000,
+        "transferFee": 100000000,
         "minPayment": 2000000000,
         "maxTransactionAmount": 500000000000,
-        "denomination": 10000000,
+        "denomination": 1000000,
         "useDynamicTransferFee": true,
         "transferFeePerPayee": 4000000,
         "minerPayFee": true
@@ -136,12 +136,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 19734
+        "port": 16035
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 19735
+        "port": 16036
     },
 
     "redis": {
